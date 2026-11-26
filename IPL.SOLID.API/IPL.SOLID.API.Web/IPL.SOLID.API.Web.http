@@ -1,0 +1,2 @@
+GET http://localhost:8765/api/solid/app1
+Accept: application/json

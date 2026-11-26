@@ -1,0 +1,55 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPL.SOLID.API.Domain", "IPL.SOLID.API.Domain\IPL.SOLID.API.Domain.csproj", "{35E7A5E7-64F0-FF86-A3F0-EFA090FDEE81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPL.SOLID.API.Application", "IPL.SOLID.API.Application\IPL.SOLID.API.Application.csproj", "{C9CEEB85-45EA-4451-89E6-9FA8A7FF905F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPL.SOLID.API.Web", "IPL.SOLID.API.Web\IPL.SOLID.API.Web.csproj", "{3B5CDCB0-1B62-42C5-B490-4BB396E5C025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPL.SOLID.API.Infrastructure.MQTT", "IPL.SOLID.API.Infrastructure.MQTT\IPL.SOLID.API.Infrastructure.MQTT.csproj", "{26E2E87D-0DEF-4536-91E3-33357CCF6ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPL.SOLID.API.Infrastructure.Shared", "IPL.SOLID.API.Infrastructure.Shared\IPL.SOLID.API.Infrastructure.Shared.csproj", "{03E3A1C4-6DD7-4901-9494-561E8834EE79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPL.SOLID.API.Infrastructure.SQLite", "IPL.SOLID.API.Infrastructure.SQLite\IPL.SOLID.API.Infrastructure.SQLite.csproj", "{1A23544B-2005-4AC5-9584-FADF9FB4A785}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35E7A5E7-64F0-FF86-A3F0-EFA090FDEE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E7A5E7-64F0-FF86-A3F0-EFA090FDEE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E7A5E7-64F0-FF86-A3F0-EFA090FDEE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E7A5E7-64F0-FF86-A3F0-EFA090FDEE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9CEEB85-45EA-4451-89E6-9FA8A7FF905F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9CEEB85-45EA-4451-89E6-9FA8A7FF905F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9CEEB85-45EA-4451-89E6-9FA8A7FF905F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9CEEB85-45EA-4451-89E6-9FA8A7FF905F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B5CDCB0-1B62-42C5-B490-4BB396E5C025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5CDCB0-1B62-42C5-B490-4BB396E5C025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5CDCB0-1B62-42C5-B490-4BB396E5C025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5CDCB0-1B62-42C5-B490-4BB396E5C025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E2E87D-0DEF-4536-91E3-33357CCF6ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E2E87D-0DEF-4536-91E3-33357CCF6ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E2E87D-0DEF-4536-91E3-33357CCF6ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E2E87D-0DEF-4536-91E3-33357CCF6ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03E3A1C4-6DD7-4901-9494-561E8834EE79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E3A1C4-6DD7-4901-9494-561E8834EE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E3A1C4-6DD7-4901-9494-561E8834EE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E3A1C4-6DD7-4901-9494-561E8834EE79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A23544B-2005-4AC5-9584-FADF9FB4A785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A23544B-2005-4AC5-9584-FADF9FB4A785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A23544B-2005-4AC5-9584-FADF9FB4A785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A23544B-2005-4AC5-9584-FADF9FB4A785}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AF74556-428A-419A-9F36-5C728C4DA6B6}
+	EndGlobalSection
+EndGlobal
